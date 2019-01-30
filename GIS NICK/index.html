@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Piano</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.3.9/Tone.min.js"></script>
+    <script src="piano.js"></script>
+</head>
+
+<body>
+
+<div class = "content-container">
+  <div class = "piano-key-container">
+    <button class = "piano-key" onmousedown="startSound(0,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key piano-key__sharp" data-sound = "C#" onmousedown="startSound(1,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(2,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key piano-key__sharp" onmousedown="startSound(3,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(4,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(5,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key piano-key__sharp" onmousedown="startSound(6,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(7,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key piano-key__sharp" onmousedown="startSound(8,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(9,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key piano-key__sharp" onmousedown="startSound(10,4)" onmouseup="stopSound()"></button>
+    <button class = "piano-key" onmousedown="startSound(11,4)" onmouseup="stopSound()"></button>
+  </div>
+</div>
+
+</body>
